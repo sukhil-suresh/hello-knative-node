@@ -1,0 +1,14 @@
+{
+  "name": "hello-knative-node",
+  "version": "1.0.0",
+  "description": "node sample for knative",
+  "author": "Mark Fisher <markfisher@vmware.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
+
