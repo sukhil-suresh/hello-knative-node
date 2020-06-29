@@ -11,7 +11,7 @@ const REVISION = process.env.K_REVISION || "unknown";
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('hello from ' + SERVICE + '@' + REVISION);
+  res.send('hello from Daisy on ' + SERVICE + '@' + REVISION);
 });
 
 app.listen(PORT, HOST);
